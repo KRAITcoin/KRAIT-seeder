@@ -400,8 +400,8 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"beta.kraitcoin.net", "alfa.kraitcoin.net", ""};
-static const string testnet_seeds[] = {"test-beta.kraitcoin.net", "test-alfa.kraitcoin.net", ""};
+static const string mainnet_seeds[] = {"194.87.101.240", "alfa.kraitcoin.net", ""};
+static const string testnet_seeds[] = {""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
